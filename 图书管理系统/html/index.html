@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>书目检索</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container bg-warning">
+    <div class="row bg-info">
+        <div class="col-md-2">
+            <img class="img-responsive" src="../images/sc4.jpg">
+        </div>
+        <div class="col-md-6 " style="margin-top:30px;">
+            <h1>山东财经大学
+                <small>图书馆</small>
+            </h1>
+        </div>
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#divNav">
+            <span class="glyphicon glyphicon-align-justify"></span>
+        </button>
+    </div>
+    <div class="row">
+        <img class="img-responsive" alt="山东财经大学" src="../images/sc1.jpeg">
+    </div>
+    <div class="row  bg-success">
+        <div id="divNav" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">书目检索</a></li>
+                <li><a href="#">读者荐购</a></li>
+                <li><a href="#">新书通报</a></li>
+                <li><a href="#">热门图书</a></li>
+                <li><a href="#">本馆介绍</a></li>
+                <li><a href="#">登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row top">
+        <div class="col-md-12 top">
+            馆藏书目检索
+        </div>
+    </div>
+    <div class="row top">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+        <button class="btn btn-default" type="button">检索</button>
+      </span>
+            </div>
+        </div>
+    </div>
+    <div class="row top">
+        <div class="col-md-2">
+            <p>检索类型:</p>
+        </div>
+        <div class="col-md-10">
+            <input type="radio" name="type" value="type1"> ISBN号
+            <input type="radio" name="type" value="type2"> 索书号
+            <input type="radio" name="type" value="type3"> 作者
+            <input type="radio" name="type" value="type4"> 图书名
+            <input type="radio" name="type" value="type5"> 出版社
+            <input type="radio" name="type" value="type6"> 图书种类
+        </div>
+    </div>
+    <div class="row top">
+        <div class="col-md-2">
+            <p>结果排序方式:</p>
+        </div>
+        <div class="col-md-4">
+            <input type="radio" name="sort" value="sort1"> 出版日期
+            <input type="radio" name="sort" value="sort2"> 入藏日期
+            <input type="radio" name="sort" value="sort3"> ISBN号
+            <input type="radio" name="sort" value="sort4"> 索书号
+        </div>
+        <div class="col-md-2">
+            <select class="form-control">
+                <option>降序排序</option>
+                <option>升序排序</option>
+            </select>
+        </div>
+    </div>
+    <div class="row top">
+        <div class="col-md-2">
+            <p>选择馆藏地点</p>
+        </div>
+        <div class="col-md-10">
+            <input type="radio" name="place" value="place1"> 燕山
+            <input type="radio" name="place" value="place2"> 舜耕
+            <input type="radio" name="place" value="place3"> 明水
+            <input type="radio" name="place" value="place4"> 圣井
+        </div>
+    </div>
+    <footer class="text-center top">
+        版权所有©Stalary
+    </footer>
+</div>
+</body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.js"></script>
+</html>
