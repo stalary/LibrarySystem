@@ -1,13 +1,32 @@
 
-/*div {*/
-    /*border: 1px solid #07fff5;*/
-/*}*/
 
 .top {
     margin-top: 10px;
 }
 
-/*body {*/
-    /*background-color: #91ffc9;*/
-/*}*/
+.bg {
+    background-color:#06c1ae;
+}
+
+.jinan {
+    color: white;
+}
+
+.form-control{
+    width: 595px;
+    background-color: #21897d;
+    border-radius: 50px;
+}
+
+.input-group{
+    float: left;
+    width: 595px;
+}
+
+.glyphicon-user{
+    border:none;
+    background-color:#06c1ae;
+    color: white;
+}
+
 
